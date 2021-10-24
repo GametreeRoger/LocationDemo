@@ -13,6 +13,10 @@
 		D31766D72721962300A47350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31766D52721962300A47350 /* Main.storyboard */; };
 		D31766D92721962600A47350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31766D82721962600A47350 /* Assets.xcassets */; };
 		D31766DC2721962600A47350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31766DA2721962600A47350 /* LaunchScreen.storyboard */; };
+		D31766E427219AB500A47350 /* Store.plist in Resources */ = {isa = PBXBuildFile; fileRef = D31766E327219AB500A47350 /* Store.plist */; };
+		D31766E627219B4000A47350 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31766E527219B4000A47350 /* Store.swift */; };
+		D32A2D862725521A0041DE78 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A2D852725521A0041DE78 /* StoreTableViewController.swift */; };
+		D32A2D88272554D90041DE78 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A2D87272554D90041DE78 /* StoreTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D31766D82721962600A47350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D31766DB2721962600A47350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D31766DD2721962600A47350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31766E327219AB500A47350 /* Store.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Store.plist; sourceTree = "<group>"; };
+		D31766E527219B4000A47350 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D32A2D852725521A0041DE78 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
+		D32A2D87272554D90041DE78 /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				D31766D82721962600A47350 /* Assets.xcassets */,
 				D31766DA2721962600A47350 /* LaunchScreen.storyboard */,
 				D31766DD2721962600A47350 /* Info.plist */,
+				D31766E327219AB500A47350 /* Store.plist */,
+				D31766E527219B4000A47350 /* Store.swift */,
+				D32A2D852725521A0041DE78 /* StoreTableViewController.swift */,
+				D32A2D87272554D90041DE78 /* StoreTableViewCell.swift */,
 			);
 			path = LocationDemo;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D31766DC2721962600A47350 /* LaunchScreen.storyboard in Resources */,
+				D31766E427219AB500A47350 /* Store.plist in Resources */,
 				D31766D92721962600A47350 /* Assets.xcassets in Resources */,
 				D31766D72721962300A47350 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +154,9 @@
 				D31766D42721962300A47350 /* ViewController.swift in Sources */,
 				D31766D02721962300A47350 /* AppDelegate.swift in Sources */,
 				D31766D22721962300A47350 /* SceneDelegate.swift in Sources */,
+				D32A2D88272554D90041DE78 /* StoreTableViewCell.swift in Sources */,
+				D31766E627219B4000A47350 /* Store.swift in Sources */,
+				D32A2D862725521A0041DE78 /* StoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

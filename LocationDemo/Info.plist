@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>為了方便打卡，請給我你的位置</string>
 </dict>
 </plist>
